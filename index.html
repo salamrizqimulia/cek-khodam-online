@@ -15,24 +15,28 @@
 		<p><b>Apa itu Khodam ?</b>, Khodam adalah makhluk gaib yang dianggap memiliki kekuatan supranatural dan biasanya dihubungkan dengan praktik-praktik spiritual atau esoteris. Khodam sering kali diidentifikasi sebagai jin, malaikat, atau entitas spiritual lainnya yang dapat membantu atau melindungi manusia dalam berbagai aspek kehidupan, termasuk dalam urusan keseharian, perlindungan, dan pencapaian tujuan tertentu.</p>
 	</div>
 	<form name="form_panel" class="panel">
-		<label>Masukan Nama Anda :</label>
-		<input name="nama" type="text" class="input_style"><br>
-		<label>Masukan Umur Anda :</label>
-		<input name="umur" type="number" class="input_style"><br>
-		<label>Masukan Jumlah Gaji Anda :</label>
-		<input name="gaji" type="number" class="input_style"><br>
-		<p></p>
+		<table border="0">
+		<tbody>
+		<tr><td>Masukan Nama Anda :</td><td><input name="nama" type="text" class="input_style"></td></tr>
+		<tr><td>Masukan Umur Anda :</td><td><input name="umur" type="number" class="input_style"></td></tr>
+		<tr><td>Masukan Jumlah Gaji Anda :</td><td><input name="gaji" type="number" class="input_style"></td></tr>
+		</tbody></table>
 		<a onclick="cek_khodam()" class="myButton">Cek Khodam</a>
 		<a onclick="reset()"class="myButton">Reset</a><br>
-		<label id="text_nama">Nama Anda :</label><br>
-		<label id="text_umur">Umur Anda :</label><br>
-		<label id="text_gaji">Gaji Anda :</label><br>
+		<table border="0">
+		<tbody>
+		<tr><td><label id="text_nama">Nama Anda :</label></td></tr>
+		<tr><td><label id="text_umur">Umur Anda :</label></td></tr>
+		<tr><td><label id="text_gaji">Gaji Anda :</label></td></tr>
+		</tbody></table>
 		<strong>
 		<label id="text_hasil" class="text_hasil"></label>
 		</strong>
 	</form>
 	<footer>
+		<div class="panel_peringatan">
 		<p><b>WEBSITE INI HANYA DIBUAT UNTUK HIBURAN SEMATA, BUKAN BENERAN CEK KHODAM YA HAHA LAGIAN MANA ADA YANG NAMA KHODAM ADANYA KODIM WKWK, LAGI MENGASAH SKILL JAVASCRIPT BIAR TAJEM</b></p>
+		</div>
 	</footer>
 	</center>
 <script src="script.js">
