@@ -60,11 +60,6 @@ form {
     	top:1px;
 }
 
-@media screen and (max-width: 800px){
-	.judul {
-		margin-top: 0px;
-	}
-}
 @media screen and (max-width: 600px) {
 	.judul {
     		width: 100%;
@@ -73,6 +68,6 @@ form {
    		 width: 100%;
 	}
 	.panel_peringatan {
-		width: 100%;
+		display: none;
 	}
 }
