@@ -48,9 +48,12 @@ body{
 }
 @media screen and (max-width: 600px) {
 	.judul {
-		margin-top: 0px;
+    width: 100%;
 	}
 	.panel {
-    font-size: 20px;
+    width: 100%;
 	}
+  footer {
+    width: 100%;
+  }
 }
