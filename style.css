@@ -13,13 +13,10 @@ body{
 }
 
 .panel_peringatan {
-	position: fixed;
-   	left: 0;
-   	bottom: 0;
-   	width: 100%;
-   	background-color: red;
-   	color: white;
-   	text-align: center;
+  width: 100%;
+ 	background-color: red;
+	color: white;
+ 	text-align: center;
 }
 .myButton {
     background-color:#77b55a;
@@ -53,7 +50,7 @@ body{
 	.judul {
 		margin-top: 0px;
 	}
-	.panel_peringatan {
-		font-size: 10px;
+	.panel {
+    font-size: 20px;
 	}
 }
