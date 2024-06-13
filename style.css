@@ -7,10 +7,6 @@ body{
 	font-family: Segoe UI;
 }
 
-.judul {
-	margin-top: 80px;
-}
-
 .panel_peringatan {
   	position: fixed;
   	left: 0;
